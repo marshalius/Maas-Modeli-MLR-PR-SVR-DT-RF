@@ -1,15 +1,8 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jul  6 18:50:13 2020
-
-@author: sadievrenseker
-"""
-
-#1.kutuphaneler
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 from sklearn.metrics import r2_score
+
 # veri yukleme
 veriler = pd.read_csv('maas.csv')
 veriler = veriler.drop("unvan",axis=1)
